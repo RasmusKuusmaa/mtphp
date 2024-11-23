@@ -6,7 +6,7 @@
     <title>2</title>
 </head>
 <body>
-    <form method="POST">
+    <form action="submit.php" method="POST">
         <textarea id= 'text' name="text"></textarea>
         <button type="submit">Send</button>
     </form>

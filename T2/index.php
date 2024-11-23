@@ -10,5 +10,6 @@
         <textarea id= 'text' name="text"></textarea>
         <button type="submit">Send</button>
     </form>
+    
 </body>
 </html>

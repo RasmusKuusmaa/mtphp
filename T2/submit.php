@@ -7,6 +7,5 @@ if ($_SERVER['REQUEST_METHOD'] == "POST"){
     $text = htmlentities($text, ENT_QUOTES, 'UTF-8');
     $stmt = $pdo->prepare("insert into text (data) values (:text_content)");
     $stmt->execute(['text_content' => $text]);
-    echo htmlspecialchars($text, ENT_QUOTES, 'UTF-8');
-    
+    echo htmlspecialchars($text, ENT_QUOTES, 'UTF-8');   
 }

@@ -6,10 +6,13 @@
     <title>Koma vigade parandaja</title>
 </head>
 <body>
-    <form onsubmit="alert(document.getElementById('tekst').value)"> 
+    <form action="veaparandaja.php" method="post"> 
         <label>Sisesta tekst</label>
-        <textarea id="tekst"></textarea>
+        <textarea  name="tekst"></textarea>
         <button type="submit">Paranda vead</button>
     </form>
+    <label>Parandatud tekst:</label>
+    <div id="parandatud_tekst">
+    </div>
 </body>
 </html>

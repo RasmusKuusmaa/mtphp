@@ -12,12 +12,12 @@
         <button type="submit">Paranda vead</button>
     </form>
     <label>Parandatud tekst:</label>
-    <textarea id="parandatud_tekst"  readonly>
+    <div id="parandatud_tekst"  readonly>
         <?php
             if (isset($_GET['parandatud_tekst'])){
                 echo ($_GET['parandatud_tekst']);
             }
         ?>
-    </textarea>
+    </div>
 </body>
 </html>
